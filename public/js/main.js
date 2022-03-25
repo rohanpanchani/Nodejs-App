@@ -23,7 +23,7 @@ const getInfo = async (event) => {
     datahide.classList.add("data_hide");
   } else {
     try {
-      let url = `http://api.weatherapi.com/v1/current.json?key=fb1605cc3ff14ea9bb191758222403&q=${cityVal}&aqi=no`;
+      let url = `https://api.weatherapi.com/v1/current.json?key=fb1605cc3ff14ea9bb191758222403&q=${cityVal}&aqi=no`;
       const response = await fetch(url);
       const data = await response.json();
       const arrData = [data];
