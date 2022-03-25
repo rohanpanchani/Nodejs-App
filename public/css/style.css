@@ -80,6 +80,7 @@ html {
   font-size: 1.6rem;
   position: relative;
   width: 100%;
+  outline: none;
   /* margin-bottom: 2rem; */
 }
 .temp_form input[type="text"] .placeholder {
@@ -93,6 +94,7 @@ html {
   color: white;
   font-size: 1.6rem;
   right: 0;
+  outline: none;
 }
 
 .temp_form input[type="submit"]:hover {
