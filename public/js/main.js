@@ -1,7 +1,7 @@
 // const { json } = require("express/lib/response");
 
 $(".carousel").carousel({
-  interval: 1000,
+  interval: 2000,
 });
 
 const cityName = document.getElementById("cityName");
